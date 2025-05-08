@@ -54,3 +54,4 @@ seaborn
 streamlit_lottie
 matplotlib
 setuptools
+wheel
