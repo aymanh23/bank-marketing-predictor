@@ -6,3 +6,4 @@ joblib
 streamlit-lottie
 setuptools
 wheel
+imbalanced-learn
