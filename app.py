@@ -231,22 +231,6 @@ elif page == 'Help':
 - **pdays_mod**: Engineered feature: pdays if pdays != 999 else -1
 - **campaign_previous_interaction**: Engineered feature: campaign * previous
     ''')
-    st.markdown('---')
-    st.info('If you have any questions, please contact the project team.')
+    
+    
 
-# --- Project Team Page ---
-elif page == 'Project Team':
-    st.title('Project Team')
-    st.markdown('''
-    <div style="font-size:1.3em;">
-    <ul>
-        <li><b>Ayman Hamdan</b></li>
-        <li><b>Ibrahim Yusuf</b></li>
-        <li><b>Mervan Özgünül</b></li>
-    </ul>
-    </div>
-    ''', unsafe_allow_html=True)
-
-# --- Footer ---
-st.markdown('---')
-st.caption('Group 16 | ADA442 Project | 2025')
