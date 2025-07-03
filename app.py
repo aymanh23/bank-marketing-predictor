@@ -33,7 +33,7 @@ st.markdown('''
     </style>
 ''', unsafe_allow_html=True)
 page = st.sidebar.selectbox(
-    'Navigate', ['Home', 'Use Model', 'Help', 'Project Team'])
+    'Navigate', ['Home', 'Use Model', 'Help'])
 
 # --- Lottie Animations ---
 hello_lottie = load_lottie_file('hello.json')
